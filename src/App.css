@@ -36,3 +36,58 @@
     transform: rotate(360deg);
   }
 }
+.controls {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+}
+
+.control label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.loading {
+  font-size: 18px;
+  color: #007bff;
+  margin-top: 20px;
+}
+.input-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.input-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-bar label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-bar input {
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+
+.Toastify__toast--success {
+  background-color: #28a745;
+}
+
+.Toastify__toast--error {
+  background-color: #dc3545;
+}
